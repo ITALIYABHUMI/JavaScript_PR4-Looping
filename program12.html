@@ -1,0 +1,24 @@
+<script type="text/javascript"> 
+
+    var n=parseInt(prompt("Enter any Number : "));
+
+    var i=2 ,prime=0;
+
+    while(i<n){
+        if((n%i)==0){
+            prime=1;
+            break;
+        }
+        i++;
+    }
+
+    if(prime==1){
+        console.log("Not Prime number");
+        document.write("Not prime number");
+    }
+    else{
+        console.log("Prime number");
+        document.write("prime number");
+    }
+    
+</script>
